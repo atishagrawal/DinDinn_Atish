@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DinDinn_Atish</string>
+    <string name="text_dummy_order_id">#559</string>
+    <string name="text_auto_reject">Auto reject </string>
+    <string name="text_two_mins"> 2 mins</string>
+    <string name="text_dummy_order_time">at 01:34PM</string>
+    <string name="text_dummy_item_count">2 Items</string>
+    <string name="text_accept">Accept</string>
+    <string name="text_dummy_order_quantity">x1</string>
+    <string name="text_chicken_noodles">Chicken Noodles</string>
+    <string name="text_addons">#AddOns</string>
+    <string name="text_expired">Expired</string>
+    <string name="text_ingredients">Ingredients</string>
+    <string name="text_search">Search</string>
+    <string name="text_ingredient_name">Ingredient Name</string>
+    <string name="text_available">Available</string>
+</resources>

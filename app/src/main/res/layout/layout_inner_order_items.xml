@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools">
+
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="addOnModel"
+            type="com.example.dindinn_atish.models.Addon" />
+
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textViewAddOnQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{Integer.toString(addOnModel.quantity)}"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/secondary_text_color"
+            tools:text="@string/text_dummy_order_quantity" />
+
+
+        <TextView
+            android:id="@+id/textViewAddOnName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{addOnModel.title}"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/secondary_text_color"
+            tools:text="@string/text_chicken_noodles" />
+
+
+    </LinearLayout>
+
+</layout>
